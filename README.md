@@ -3,7 +3,6 @@
 
 ### Check Out My Profile
 - 🌟 [Visit My GitHub Profile](https://github.com/J-Architect-SUNIL)
-- - 👤 [My Profile Page](https://J-Architect-SUNIL.github.io/profile.html)
 
 ### About Me
 - 👀 **I’m interested in**: Software-based projects, primarily involving Java frameworks and advanced development.
