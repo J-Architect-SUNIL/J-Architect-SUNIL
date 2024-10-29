@@ -4,12 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirecting to GitHub Profile</title>
+    <link rel="icon" href="https://j-architect-sunil.github.io/J-Architect-SUNIL/favicon.ico" type="image/x-icon">
     <script>
         // JavaScript redirect
         window.location.href = "https://github.com/J-Architect-SUNIL";
     </script>
+    <style>
+        /* Layout styling */
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+        .content {
+            text-align: left;
+        }
+        .small-profile {
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        .large-profile {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+        a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <p>If you are not redirected, <a href="https://github.com/J-Architect-SUNIL">click here</a> to go to my GitHub profile.</p>
+    <!-- Small icon in the corner -->
+    <img class="small-profile" src="https://github.com/J-Architect-SUNIL.png" alt="Small GitHub Profile Picture">
+
+    <!-- Main content on the left -->
+    <div class="content">
+        <p>Redirecting to my GitHub profile...</p>
+        <p>If you are not redirected, <a href="https://github.com/J-Architect-SUNIL">click here</a> to go to my GitHub profile.</p>
+    </div>
+
+    <!-- Large profile picture on the right -->
+    <img class="large-profile" src="https://github.com/J-Architect-SUNIL.png" alt="Large GitHub Profile Picture">
 </body>
 </html>
