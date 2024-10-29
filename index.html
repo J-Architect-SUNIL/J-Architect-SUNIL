@@ -5,37 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirecting to GitHub Profile</title>
     <script>
-        window.location.href = "https://github.com/J-Architect-SUNIL"; // Keep your script for instant redirection
+        // Redirects immediately to GitHub profile
+        window.location.href = "https://github.com/J-Architect-SUNIL";
     </script>
     <link rel="icon" href="https://avatars.githubusercontent.com/u/152889731?v=4"> <!-- Favicon -->
-    <style>
-        body {
-            position: relative; /* Allows positioning of children */
-            text-align: center; /* Centers text on the page */
-            margin: 0; /* Remove default margin */
-            padding: 0; /* Remove default padding */
-            height: 100vh; /* Full height for vertical centering */
-            display: flex; /* Flexbox for centering */
-            flex-direction: column; /* Align items in column */
-            justify-content: center; /* Center vertically */
-            align-items: center; /* Center horizontally */
-        }
-        .profile-pic {
-            position: absolute; /* Positioning to top-right */
-            top: 10px; /* Distance from the top */
-            right: 10px; /* Distance from the right */
-            width: 50px; /* Size of the icon */
-            height: 50px; /* Maintain aspect ratio */
-            border-radius: 50%; /* Makes image circular */
-            object-fit: cover; /* Cover the area without distortion */
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Optional shadow */
-        }
-    </style>
 </head>
 <body>
-    <a href="https://github.com/J-Architect-SUNIL" target="_blank"> <!-- Clickable link -->
-        <img class="profile-pic" src="https://avatars.githubusercontent.com/u/152889731?v=4" alt="Profile Picture"> <!-- Profile Picture -->
-    </a>
+    <!-- Using the raw URL for the uploaded image -->
+    <img src="https://raw.githubusercontent.com/J-Architect-SUNIL/J-Architect-SUNIL/main/me.jpg" alt="Profile Picture" width="100" style="display: block; margin: auto;"> <!-- Profile Picture -->
     <p>If you are not redirected, <a href="https://github.com/J-Architect-SUNIL">click here</a> to go to my GitHub profile.</p>
 </body>
 </html>
