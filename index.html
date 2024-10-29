@@ -4,29 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirecting to GitHub Profile</title>
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/152889731?v=4" type="image/png"> <!-- Favicon -->
     <script>
-        window.location.href = "https://github.com/J-Architect-SUNIL";
+        // Redirects to GitHub profile after 100 milliseconds
+        setTimeout(function() {
+            window.location.href = "https://github.com/J-Architect-SUNIL";
+        }, 100); // 100 milliseconds = 0.1 seconds
     </script>
-    <link rel="icon" href="https://avatars.githubusercontent.com/u/152889731?v=4"> <!-- Favicon -->
     <style>
         body {
             position: relative; /* Allows positioning of children */
             text-align: center; /* Centers text on the page */
-            margin: 0;
-            padding: 0;
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            height: 100vh; /* Full height for vertical centering */
+            display: flex; /* Flexbox for centering */
+            flex-direction: column; /* Align items in column */
+            justify-content: center; /* Center vertically */
+            align-items: center; /* Center horizontally */
         }
         .profile-pic {
-            position: absolute; /* Allows precise positioning */
+            position: absolute; /* Positioning to top-right */
             top: 10px; /* Distance from the top */
             right: 10px; /* Distance from the right */
-            width: 50px; /* Set the size of the icon */
-            border-radius: 50%; /* Makes the image circular */
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Optional: Adds a shadow effect */
+            width: 50px; /* Size of the icon */
+            height: 50px; /* Maintain aspect ratio */
+            border-radius: 50%; /* Makes image circular */
+            object-fit: cover; /* Cover the area without distortion */
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Optional shadow */
         }
     </style>
 </head>
 <body>
-    <img class="profile-pic" src="https://avatars.githubusercontent.com/u/152889731?v=4" alt="Profile Picture"> <!-- Profile Picture -->
+    <a href="https://github.com/J-Architect-SUNIL" target="_blank"> <!-- Clickable link -->
+        <img class="profile-pic" src="https://avatars.githubusercontent.com/u/152889731?v=4" alt="Profile Picture"> <!-- Profile Picture -->
+    </a>
     <p>If you are not redirected, <a href="https://github.com/J-Architect-SUNIL">click here</a> to go to my GitHub profile.</p>
 </body>
 </html>
