@@ -8,9 +8,25 @@
         window.location.href = "https://github.com/J-Architect-SUNIL";
     </script>
     <link rel="icon" href="https://avatars.githubusercontent.com/u/152889731?v=4"> <!-- Favicon -->
+    <style>
+        body {
+            position: relative; /* Allows positioning of children */
+            text-align: center; /* Centers text on the page */
+            margin: 0;
+            padding: 0;
+        }
+        .profile-pic {
+            position: absolute; /* Allows precise positioning */
+            top: 10px; /* Distance from the top */
+            right: 10px; /* Distance from the right */
+            width: 50px; /* Set the size of the icon */
+            border-radius: 50%; /* Makes the image circular */
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Optional: Adds a shadow effect */
+        }
+    </style>
 </head>
 <body>
-    <img src="https://avatars.githubusercontent.com/u/152889731?v=4" alt="Profile Picture" width="100" style="display: block; margin: auto;"> <!-- Profile Picture -->
+    <img class="profile-pic" src="https://avatars.githubusercontent.com/u/152889731?v=4" alt="Profile Picture"> <!-- Profile Picture -->
     <p>If you are not redirected, <a href="https://github.com/J-Architect-SUNIL">click here</a> to go to my GitHub profile.</p>
 </body>
 </html>
