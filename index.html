@@ -8,11 +8,31 @@
         // Redirects immediately to GitHub profile
         window.location.href = "https://github.com/J-Architect-SUNIL";
     </script>
-    <link rel="icon" href="https://avatars.githubusercontent.com/u/152889731?v=4"> <!-- Favicon -->
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/152889731?v=4" type="image/png"> <!-- Favicon -->
+    <style>
+        /* CSS for styling the container */
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .image {
+            width: 50px; /* Adjust the size as needed */
+            margin: 0 10px; /* Spacing between images and text */
+        }
+    </style>
 </head>
 <body>
-    <!-- Using the raw URL for the uploaded image -->
-    <img src="https://raw.githubusercontent.com/J-Architect-SUNIL/J-Architect-SUNIL/main/me.jpg" alt="Profile Picture" width="100" style="display: block; margin: auto;"> <!-- Profile Picture -->
-    <p>If you are not redirected, <a href="https://github.com/J-Architect-SUNIL">click here</a> to go to my GitHub profile.</p>
+    <div class="container">
+        <!-- Left Image (Internet Sign) -->
+        <img src="https://example.com/internet-sign.png" alt="Internet Sign" class="image"> <!-- Replace with your actual image URL -->
+
+        <!-- Link -->
+        <p>If you are not redirected, <a href="https://github.com/J-Architect-SUNIL">click here</a> to go to my GitHub profile.</p>
+
+        <!-- Right Image -->
+        <img src="https://raw.githubusercontent.com/J-Architect-SUNIL/J-Architect-SUNIL/main/me.jpg" alt="Profile Picture" class="image">
+    </div>
 </body>
 </html>
